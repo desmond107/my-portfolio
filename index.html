@@ -2,153 +2,164 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio site</title>
-
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="style.css">
+    <title>personal portfolio website </title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <header>
+    
+<!-- header section starts  -->
 
-        <div class="user">
-            <img src="pic.jpg" alt="">
-            <h3 class="name">Desmond Kinoti</h3>
-            <p class="post">softwarwe developer</p>
+<header>
+
+    <div class="user">
+        <img src="img.jpg" alt="">
+        <h3 class="name">Desmond Kinoti</h3>
+        <p class="post">web developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about me</a></li>
+            <li><a href="#education">education & skills</a></li>
+            <li><a href="#portfolio">my portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Desmond kinoti</span></h1>
+    <p>My name is Desmond Kinoti, I live in Nairobi kenya,I am a software developer,
+        i have a background in Management Information Systems & i am enterpreneur 
+       having taken part in more than 5 Projects. My hobbies are : touring, attending
+       events & conserts, swimming and trying new experiences. I am persionate 
+       about creating solutions to problems through technology and innovation.
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+ <!-- the about section-->
+ <section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> me </h1>
+    
+    <div class="row">
+    
+        <div class="info">
+            <h3> <span> name : </span> Desmond Kinoti</h3>
+            <h3> <span> age : </span> 20+ </h3>
+            <h3> <span> qualification : </span> Management information Systems (MIS) </h3>
+            <h3> <span> post : </span> Software developer </h3>
+            <h3> <span> fluent languages : </span> English & kiswahili </h3>
+            <a href="#"><button class="btn"> download CV <i class="fas fa-file-download"></i> </button></a>
         </div>
     
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
+        <div class="counter">
     
-    </header>
-
-    <div id="menu" class="fas fa-chess-king"></div>
-
-    <!-- the home section-->
-    <section class="home" id="home">
-
-        <h3>Hey hi !</h3>
-        <h1>I'M <span>Desmond kinoti</span></h1>
-        <p>My name is Desmond Kinoti, I live in Nairobi kenya,I am a software developer,
-             i have a background in Management Information Systems & i am enterpreneur 
-            having taken part in more than 5 Projects. My hobbies are : touring, attending
-            events & conserts, swimming and trying new experiences. I am persionate 
-            about creating solutions to problems through technology and innovation.
-        </p>
-        <a href="#about"><button class="btn">about me <i class="fas fa-user-astronaut"></i></button></a>
+            <div class="box">
+                <span>2+</span>
+                <h3>years of experience</h3>
+            </div>
+    
+            <div class="box">
+                <span>15+</span>
+                <h3>porject completed</h3>
+            </div>
+    
+            <div class="box">
+                <span>20+</span>
+                <h3>happy clients</h3>
+            </div>
+    
+            <div class="box">
+                <span>10+</span>
+                <h3>awards won</h3>
+            </div>
+    
+        </div>
+    
+    </div>
     
     </section>
 
-    <!-- the about section-->
-    <section class="about" id="about">
+    <!--the education section-->
+    <section class="education" id="education">
 
-        <h1 class="heading"> <span>about</span> me </h1>
+        <h1 class="heading"> my <span>education background</span> </h1>
         
-        <div class="row">
+        <div class="box-container">
         
-            <div class="info">
-                <h3> <span> name : </span> Desmond Kinoti</h3>
-                <h3> <span> age : </span> 20+ </h3>
-                <h3> <span> qualification : </span> Management information Systems (MIS) </h3>
-                <h3> <span> post : </span> Software developer </h3>
-                <h3> <span> fluent languages : </span> English & kiswahili </h3>
-                <a href="#"><button class="btn"> download CV <i class="fas fa-file-download"></i> </button></a>
+            <div class="box">
+                <i class="fas fa-business-time"></i>
+                <span>2016</span>
+                <h3>system analysis & desighn</h3>
+                <p>built Business Logic Component (BLOC) based solutions for business</p>
             </div>
         
-            <div class="counter">
+            <div class="box">
+                <i class="fas fa-key"></i>
+                <span>2017</span>
+                <h3>system development</h3>
+                <p>development of responsive desktope application</p>
+            </div>
         
-                <div class="box">
-                    <span>2+</span>
-                    <h3>years of experience</h3>
-                </div>
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <span>2018</span>
+                <h3>android development</h3>
+                <p>mobile aplication development for android and iphone</p>
+            </div>
         
-                <div class="box">
-                    <span>15+</span>
-                    <h3>porject completed</h3>
-                </div>
+            <div class="box">
+                <i class="fas fa-database"></i>
+                <span>2019</span>
+                <h3>database systems</h3>
+                <p>data analysisi and desighn</p>
+            </div>
         
-                <div class="box">
-                    <span>20+</span>
-                    <h3>happy clients</h3>
-                </div>
+            <div class="box">
+                <i class="fas fa-book-reader"></i>
+                <span>2020</span>
+                <h3>ui/ux</h3>
+                <p>front end development</p>
+            </div>
         
-                <div class="box">
-                    <span>10+</span>
-                    <h3>awards won</h3>
-                </div>
-        
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>AI</h3>
+                <p>machine learning </p>
             </div>
         
         </div>
         
         </section>
 
-        <!--the education section-->
-        <section class="education" id="education">
 
-            <h1 class="heading"> my <span>education</span> </h1>
-            
-            <div class="box-container">
-            
-                <div class="box">
-                    <i class="fas fa-business-time"></i>
-                    <span>2016</span>
-                    <h3>system analysis & desighn</h3>
-                    <p>built Business Logic Component (BLOC) based solutions for business</p>
-                </div>
-            
-                <div class="box">
-                    <i class="fas fa-key"></i>
-                    <span>2017</span>
-                    <h3>system development</h3>
-                    <p>development of responsive desktope application</p>
-                </div>
-            
-                <div class="box">
-                    <i class="fas fa-mobile"></i>
-                    <span>2018</span>
-                    <h3>android development</h3>
-                    <p>mobile aplication development for android and iphone</p>
-                </div>
-            
-                <div class="box">
-                    <i class="fas fa-database"></i>
-                    <span>2019</span>
-                    <h3>database systems</h3>
-                    <p>data analysisi and desighn</p>
-                </div>
-            
-                <div class="box">
-                    <i class="fas fa-book-reader"></i>
-                    <span>2020</span>
-                    <h3>ui/ux</h3>
-                    <p>front end development</p>
-                </div>
-            
-                <div class="box">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>2021</span>
-                    <h3>AI</h3>
-                    <p>machine learning </p>
-                </div>
-            
-            </div>
-            
-            </section>
-            <!--the portfolio section-->
 
-            section class="portfolio" id="portfolio">
+<!-- the portfolio section  -->
+
+<section class="portfolio" id="portfolio">
 
 <h1 class="heading"> my <span>portfolio</span> </h1>
 
@@ -156,86 +167,103 @@
 
     <div class="box">
         
-        <a href="https://github.com/desmond107/Food_recipe-flutter-app" style="color: white; font-size: larger;">food recipe App<img src="img1.jpeg" alt=""></a>
+        <a href="https://github.com/desmond107/Food_recipe-flutter-app" style="color: white; font-size: large;">food recipe App<img src="img1.jpeg" alt=""></a>
     </div>
 
     <div class="box">
         
-        <a href="https://github.com/desmond107/Sasa_News_Flutter" style="color: white; font-size: larger;">News App<img src="img2.jpeg" alt=""></a>
+        <a href="https://github.com/desmond107/Sasa_News_Flutter" style="color: white; font-size: large;">News App<img src="img2.jpeg" alt=""></a>
         
     </div>
 
     <div class="box">
         
-        <a href="https://github.com/desmond107/simple-grocery-ui" style="color: white; font-size: larger;">Grocery app ui<img src="img3.jpeg" alt=""></a>
+        <a href="https://github.com/desmond107/simple-grocery-ui" style="color: white; font-size: large;">Grocery app ui<img src="img3.jpeg" alt=""></a>
     </div>
 
     <div class="box">
         
-        <a href="https://github.com/desmond107/Quizz_flow-app" style="color: white; font-size: larger;">Quiz app<img src="img4.jpeg" alt=""></a>
+        <a href="https://github.com/desmond107/Quizz_flow-app" style="color: white; font-size: large;">Quiz app<img src="img4.jpeg" alt=""></a>
     </div>
 
     <div class="box">
        
-        <a href="https://github.com/desmond107/world-clock" style="color: white; font-size: larger;">World clock app <img src="img5.jpeg" alt=""></a>
+        <a href="https://github.com/desmond107/world-clock" style="color: white; font-size: large;">World clock app <img src="img5.jpeg" alt=""></a>
     </div>
 
     <div class="box">
         
-        <a href="https://github.com/desmond107/Barcode-scanner-flutter-app" style="color: white; font-size: larger;">Barcodde scanner app <img src="img6.jpeg" alt=""></a>
+        <a href="https://github.com/desmond107/Barcode-scanner-flutter-app" style="color: white; font-size: large;">Barcodde scanner app <img src="img6.jpeg" alt=""></a>
     </div>
 
 </div>
 
 </section>
 
-<!--the contact section-->
+
+<!-- the contact section  -->
 
 <section class="contact" id="contact">
 
-    <h1 class="heading"> <span>contact</span> me </h1>
-    
-    <div class="row">
-    
-        <div class="content">
-    
-            <h3 class="title">contact info</h3>
-    
-            <div class="info">
-                <h3> <i class="fas fa-envelope"></i> desmondkinoti.com </h3>
-                <h3> <i class="fas fa-phone"></i> +254-713-905-761 </h3>
-                <h3> <i class="fas fa-mobile"></i> +254-7222-333-009 </h3>
-                <h3> <i class="fas fa-map-marker-alt"></i> Nairobi, Kenya - 400200. </h3>
-            </div>
-    
-        </div>
-    
-        <form action="">
-    
-            <input type="text" placeholder="name" class="box">
-            <input type="email" placeholder="email" class="box">
-            <input type="text" placeholder="project" class="box">
-            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-            <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
-    
-        </form>
-    
-    </div>
-    
-    </section>
-    <!--scroll button from the top-->
-    <a href="#home" class="top">
-        <img src="images/scroll-top-img.png" alt="">
-    </a>
+<h1 class="heading"> <span>contact</span> me </h1>
 
-    <!-- added jquery cdn link  -->
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-telegram-plane"></i> desmondkinoti.com </h3>
+            <h3> <i class="fas fa-mobile"></i> +254-713-905-761 </h3>
+            <h3> <i class="fas fa-mobile"></i> +254-720-636-766 </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Nairobi, Kenya - 400200. </h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="contact" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+
+</div>
+
+</section>
+
+
+
+<!-- the scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="img7.jpeg" alt="">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!--  js file link  -->
-<script src="code.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
 
-    
-    
-    
+
 </body>
 </html>
