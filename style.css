@@ -368,30 +368,14 @@ header .navbar ul li a:hover{
 
 .top{
     position: fixed;
-    bottom:7.5rem; right: 2rem;
+    bottom:1rem; right: 2rem;
     z-index: 100;
     display: none;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries  */
+/* the media queries sector */
 
 @media (max-width:1200px){
 
